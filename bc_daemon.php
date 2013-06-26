@@ -3,10 +3,10 @@
 /******************************************************************************
 	Wallet Configuration
 ******************************************************************************/
-	$GLOBALS["wallet_ip"] = "https://50.2.8.67";
-	$GLOBALS["wallet_port"] = "36911";
-	$GLOBALS["wallet_user"] = "77b6a368937cd18a8a";
-	$GLOBALS["wallet_pass"] = "6b02c9ae73aebc71ec81ec3076c64952";
+	$GLOBALS["wallet_ip"] = "127.0.0.1";
+	$GLOBALS["wallet_port"] = "8332";
+	$GLOBALS["wallet_user"] = "usrename";
+	$GLOBALS["wallet_pass"] = "password";
 	
 
 /******************************************************************************
@@ -171,7 +171,7 @@
 	}
 
 /******************************************************************************
-	This script is Copyright © 2013 Jake Paysnoe.
+	This script is Copyright ï¿½ 2013 Jake Paysnoe.
 	I hereby release this script into the public domain.
 	Jake Paysnoe Jun 26, 2013
 ******************************************************************************/
