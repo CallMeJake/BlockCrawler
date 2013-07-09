@@ -60,6 +60,11 @@
 		bcapi_error (5, "Method Not Permitted: getpeerinfo");
 	}	
 	
+	if ($request[0] == "listtransactions")
+	{
+		bcapi_error (7, "Method Not Permitted: listtransactions");
+	}	
+	
 //	Check to stop remote users from killing the daemon via API
 	if ($request[0] == "stop")
 	{
