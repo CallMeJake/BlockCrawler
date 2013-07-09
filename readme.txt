@@ -30,3 +30,12 @@ Here are some sample entries for the value $GLOBALS["wallet_ip"]:
 	"https://127.0.0.1" - This will connect to the wallet using SSL encryption.
 
 Once you have made these changes upload the files to your server. You should be ready to go.
+
+/*****************************************************************************
+	Updated 07/08/2013
+*****************************************************************************/
+	-Added file bc_api.php
+
+		This file contains a pass through request API that allows a user or 
+		remote script to query the Block Crawler directly for information about the 
+		status of the network and the daemon.
