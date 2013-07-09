@@ -60,9 +60,9 @@
 		bcapi_error (5, "Method Not Permitted: getpeerinfo");
 	}	
 	
-	if ($request[0] == "listtransactions")
+	if ($request[0] == "listreceivedbyaddress")
 	{
-		bcapi_error (7, "Method Not Permitted: listtransactions");
+		bcapi_error (7, "Method Not Permitted: listreceivedbyaddress");
 	}	
 	
 //	Check to stop remote users from killing the daemon via API
