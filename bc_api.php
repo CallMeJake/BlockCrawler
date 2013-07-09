@@ -18,7 +18,7 @@
 
 ******************************************************************************/
 //	Enable the wallet
-	require_once ("bc_inclusion.php");
+	require_once ("bc_daemon.php");
 	
 //	A check for no request
 	if (!isset ($_REQUEST["request"]) || $_REQUEST["request"] == "")
