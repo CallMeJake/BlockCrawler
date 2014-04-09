@@ -21,7 +21,7 @@ top you will find the following code:
 	
 It is important to replace these values with the correct information for your daemon.
 
-The daemon will worh with RPCSSL configured if your version of cURL supports it.
+The daemon will work with RPCSSL configured if your version of cURL supports it.
 
 Here are some sample entries for the value $GLOBALS["wallet_ip"]:
 
