@@ -8,7 +8,7 @@ Ensure that you have the following files:
 	bc_daemon.php - This file contains fucntions for interacting with the daemon.
 
 
-Find the bc_daemon.php and open it in your test editor or PHP IDE.  At the
+Find the bc_daemon.php and open it in your text editor or PHP IDE.  At the
 top you will find the following code:
 
 /******************************************************************************
